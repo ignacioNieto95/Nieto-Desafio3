@@ -40,9 +40,10 @@ let eleccion = (prompt("Indicanos en que podemos ayudarte:\n1)Compras\n2)Consult
 if(eleccion == 1 || eleccion == "compras"){
     //En un futuro, envio directo a la seccion de la pagina de productos
 
+    //Muestro cada objeto de la lista completo en la consola
     for (i=0; i<listaGuitarras.length; i++){
 
-        console.log(listaGuitarras[i].marca);
+        console.log(listaGuitarras[i]);
 
     }
 
