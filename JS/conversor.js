@@ -41,11 +41,7 @@ if(eleccion == 1 || eleccion == "compras"){
     //En un futuro, envio directo a la seccion de la pagina de productos
 
     //Muestro cada objeto de la lista completo en la consola
-    for (i=0; i<listaGuitarras.length; i++){
-
-        console.log(listaGuitarras[i]);
-
-    }
+    listaGuitarras.forEach((elemento) => console.log(elemento));
 
     let guitarraElegida = prompt("Ingresa el codigo de la guitarra que elijas!\nGuitarras disponibles:\n\n" + guitarra1.marca + " " + guitarra1.modelo + "\nAño: " + guitarra1.año + "\nPrecio: " + guitarra1.precio + "\nCodigo: " + guitarra1.codigo + "\n\n" + guitarra2.marca + " " + guitarra2.modelo + "\nAño: " + guitarra2.año + "\nPrecio: " + guitarra2.precio +  "\nCodigo: " + guitarra2.codigo + "\n\n" + guitarra3.marca + " " + guitarra3.modelo + "\nAño: " + guitarra3.año + "\nPrecio: " + guitarra3.precio + "\nCodigo: " + guitarra3.codigo + "\n");
 
