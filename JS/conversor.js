@@ -34,7 +34,7 @@ const guitarra3 = new Guitarra("Fender", "Telecaster", 1965, 1900, 3);
 const listaGuitarras = [guitarra1, guitarra2, guitarra3];
 
 let nombre = prompt("Hola, bienvenido! Por favor, ingresa tu nombre: ");
-alert = (nombre + ", es un placer que nos elijas");
+alert(nombre + ", es un placer que nos elijas");
 let eleccion = (prompt("Indicanos en que podemos ayudarte:\n1)Compras\n2)Consultas\n3)Clases\n")).toLowerCase();
 
 if(eleccion == 1 || eleccion == "compras"){
@@ -57,7 +57,7 @@ if(eleccion == 1 || eleccion == "compras"){
 else if(eleccion == 2 || eleccion == "consultas"){
     alert("Para consultas, comunicate directamente a guitarbrand@gmail.com");
 }
-else if(eleccion == 2 || eleccion == "clases"){
+else if(eleccion == 3 || eleccion == "clases"){
     alert("Proximamente tendremo informacion sobre los dias y horarios de nuestras clases!");
 }
 else{
